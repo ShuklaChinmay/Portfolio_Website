@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinmay Shukla - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Chinmay Shukla</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Chinmay Shukla</h1>
+            <p>Creative Professional | Tech Enthusiast | Developer</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a passionate creative professional with a love for crafting beautiful and functional digital experiences. With years of experience in design and development, I bring ideas to life through innovative solutions.</p>
+                <p>My approach combines creativity with technical expertise, ensuring every project not only looks great but performs exceptionally well.</p>
+                <p>When I'm not working, you can find me exploring new technologies, traveling, or enjoying a good cup of coffee.</p>
+            </div>
+            <div class="about-image">
+                <img src="Profile_pic.jpeg" alt="Chinmay Shukla" height="500" width="500">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Design</h3>
+                <p>UI/UX Design, Graphic Design, Brand Identity, Prototyping, User Research</p>
+            </div>
+            <div class="skill-card">
+                <h3>Development</h3>
+                <p>HTML, CSS, JavaScript, React, Node.js, Responsive Design</p>
+            </div>
+            <div class="skill-card">
+                <h3>Tools</h3>
+                <p>Figma, Adobe Creative Suite, Git, VS Code, Webflow</p>
+            </div>
+            <div class="skill-card">
+                <h3>Soft Skills</h3>
+                <p>Communication, Problem Solving, Team Collaboration, Project Management</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">Project 1</div>
+                <div class="project-content">
+                    <h3>Project Title</h3>
+                    <p>Brief description of the project and the technologies used. This showcases your work and achievements.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">Project 2</div>
+                <div class="project-content">
+                    <h3>Project Title</h3>
+                    <p>Brief description of the project and the technologies used. This showcases your work and achievements.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">Project 3</div>
+                <div class="project-content">
+                    <h3>Project Title</h3>
+                    <p>Brief description of the project and the technologies used. This showcases your work and achievements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-container">
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+        <p>&copy; 2024 Chinmay Shukla. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
